@@ -23,8 +23,8 @@ int main() {
         cap.open(file_path);
     }
     if (!cap.isOpened()) {
-      cout << "Error opening video stream or file" << endl;
-      return -1;
+        cout << "Error opening video stream or file" << endl;
+        return -1;
     }
 
     CONSOLE_SCREEN_BUFFER_INFO csbi;
