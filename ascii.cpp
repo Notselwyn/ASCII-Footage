@@ -42,7 +42,6 @@ int main() {
 
         resize(frame, frame, Size (columns, rows));
         cvtColor(frame, frame, COLOR_BGR2GRAY);
-        flip(frame, frame, 1);
         Size s = frame.size();
         string frame_text = "";
 
